@@ -1,59 +1,64 @@
-# Calculator
+# SEG3502 - Laboratoire 1 : Calculatrice Angular
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 22.1.8.
+## Description
 
-## Development server
+Ce projet a été réalisé dans le cadre du laboratoire 1 du cours SEG3502.
 
-To start a local development server, run:
+L'application est une calculatrice développée avec Angular. Elle permet à l'utilisateur d'entrer deux nombres et d'effectuer les opérations suivantes :
+
+- Addition (+)
+- Soustraction (-)
+- Multiplication (*)
+- Division (/)
+
+Le résultat est affiché directement dans l'application.
+
+## Technologies utilisées
+
+- Angular
+- TypeScript
+- HTML
+- CSS
+- Node.js
+- npm
+- Angular CLI
+- Visual Studio Code
+
+## Installation
+
+Après avoir cloné le dépôt, installer les dépendances :
+
+```bash
+npm install
+```
+
+## Exécution
+
+Lancer le serveur de développement Angular :
 
 ```bash
 ng serve
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Puis ouvrir dans un navigateur :
 
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
+```text
+http://localhost:4200
 ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## Structure principale
+
+Le composant `Calculator` contient l'interface et la logique de la calculatrice.
+
+Le projet a notamment été créé avec les commandes :
 
 ```bash
-ng generate --help
+ng new calculator
+ng generate component calculator
+ng serve
 ```
 
-## Building
+## Auteurs
 
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+- Alex McIvor
+- Rayane Badaoui
