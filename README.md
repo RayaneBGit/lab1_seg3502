@@ -46,17 +46,6 @@ Puis ouvrir dans un navigateur :
 http://localhost:4200
 ```
 
-## Structure principale
-
-Le composant `Calculator` contient l'interface et la logique de la calculatrice.
-
-Le projet a notamment été créé avec les commandes :
-
-```bash
-ng new calculator
-ng generate component calculator
-ng serve
-```
 
 ## Auteurs
 
